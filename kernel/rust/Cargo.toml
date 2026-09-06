@@ -1,0 +1,16 @@
+[package]
+name = "umk-kernel"
+version = "0.1.0"
+edition = "2021"
+description = "Universal Mathematical Kernel — production rewrite kernel"
+license = "MIT"
+authors = ["UMK"]
+readme = "README.md"
+
+[lib]
+name = "umk_kernel"
+path = "src/lib.rs"
+
+[[test]]
+name = "core"
+path = "tests/core.rs"
